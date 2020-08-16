@@ -218,7 +218,8 @@ body, html {
 		
 	}
 	.grid-main {
-		grid: none;
+		display: flex;
+		flex-direction: column;
 		justify-content: left;
 	}
 	.slogan h1 {
@@ -235,7 +236,7 @@ body, html {
 	}
 
 	.list {
-		padding-top: 30%;
+		padding-top: 0px;
 		margin-left: 5%;
 	}
 	.icon-list {
@@ -278,7 +279,7 @@ body, html {
 		background-color: rgba(246, 198, 126, 0.57);
 		width: 300px;
 		height: 100px;
-		margin-top: 350px;
+		margin-top: 5%;
 		margin-left: 10%
 	}
 	.banner a {
