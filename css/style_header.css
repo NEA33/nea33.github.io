@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto',  sans-serif;
+}
+body, html {
+	overflow-x: hidden;
+}
+header {
+	position: fixed;
+	z-index: 1000;
+	background: #F6C67E;
+	width: 100%;
+}
+nav {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+
+#checkbox-menu, 
+.toggle {
+	display: none;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.menu img {
+	height: 40px;
+}
+.menu li a {
+	color: #000;
+	text-decoration: none;
+	-ms-align-self: au;
+	align-self: center;
+	font-size: 15px;
+	padding: 10px 15px;
+	transition: background .2s linear;
+}
+.menu li a:hover {
+	background: #F3953F;
+}
+.menu li a.logo {
+	font-size: 25px;
+	margin-right: 80px;
+}
+.menu li a.contacts {
+	margin-right: 50px;
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+	.toggle {
+		clear: both;
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		line-height: 40px;
+		width: 100%;
+		color: #000;
+		background: #F6C67E;
+		transition: all .1s linear;
+	}
+	.toggle:hover {
+		background: #F3953F;
+	}
+	#checkbox-menu:checked  + label .touch li {
+		opacity: 1;
+		visibility: visible;
+		transition: all .7s linear;
+	}
+	#checkbox-menu:checked + label .touch {
+		height: 250px;
+	}
+	.menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		height: 0;
+		transition: height .3s linear;
+	}
+	.menu img {
+		display: none;
+	}
+	.menu li {
+		display: flex;
+		align-self: center;
+		width: 100%;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.menu li a {
+		width: 100%;
+		text-align: center;
+		align-self: center;
+		align-content: center;
+		font-size: 18px;
+	}
+	.menu li a.logo {
+		font-size: 18px;
+		margin-right: 0px;
+	}
+	.menu li a.contacts {
+		margin-right: 0px;
+	}
+}
