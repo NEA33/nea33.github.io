@@ -306,7 +306,7 @@ body, html {
 		background: linear-gradient(180deg, #fff 1%, rgba(0,0,0,0) 99%),  url(img/background.svg);
 		background-size: cover;
 		background-position: right top;
-		height: 600px;
+		height: 500px;
 		display: flex;
 		flex-direction: column;
 		padding-left: 5%;
@@ -315,6 +315,15 @@ body, html {
 	
 	.icon-list li {
 		font-weight: 600;
+	}
+	.banner {
+		width: 250px;
+		height: 80px;
+	}
+	
+	.banner p {
+		font-size: 35px;
+		text-align: center;
 	}
 
 	
