@@ -1,11 +1,3 @@
-* {
-	padding: 0;
-	margin: 0;
-	font-family: 'Roboto',  sans-serif;
-}
-body, html {
-	overflow-x: hidden;
-}
 .main-screen {
 	background-color: #FFF;
 	background-image: url(img/background.svg);
@@ -88,6 +80,88 @@ body, html {
 	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
 }
 
+.courses {
+	padding-left: 5%;
+	display: flex;
+	padding-top: 80px;
+	justify-content: space-between;
+}
+.course-banner p {
+	background-color: rgba(246, 198, 126, 0.57);
+	width: 316px;
+	height: 165px;
+	color: #E14E0E;
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
+}
+.ege-pic img {
+	padding-top: 70px;
+	width: 310px;
+	height: auto;
+}
+.cards {
+	display: flex;
+	justify-content: space-around;
+}
+.card {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 335px;
+	height: 500px;
+	background: #FDFEC8;
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.card-container {
+	padding: 19px;
+	background: #fff;
+}
+.card-container p {
+	font-size: 24px;
+	line-height: 28px;
+	align-items: center;
+	text-align: center;
+}
+.card-info {
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.money img {
+	padding-left: 20px;
+	padding-right: 10px;
+	height: 21px;
+	width: auto;
+}
+.money p {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	align-items: center;
+	text-align: right;
+	color: #E14E0E;
+}
+
+.info img {
+	padding-right: 5px;
+	height: 25px;
+	width: auto;
+}
+.info p {
+	padding-right: 5px;
+	font-size: 22px;
+	line-height: 26px;
+	align-items: center;
+	text-align: right;
+}
+.oge-pic img {
+	width: 220px;
+	height: auto;
+	padding-left: 90px;
+	padding-top: 30px;
+}
 /*.grid-ege {
 	display: grid;
 	grid-template-areas: 
@@ -233,27 +307,8 @@ body, html {
 
 	.btn-contacts {
 		display: none;
-		background-color: #F6C67E;
-		width: 320px;
-		height: 70px;
-		margin-left: 40px;	
-		margin-top: 95px;
-		transition: background .2s linear;
 	}
-	.btn-contacts:hover {
-		background: #F3953F;
-		box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
-	}
-	.btn-contacts a {
-		text-decoration: none;
-		color: #000;
-	}
-	.btn-contacts p {
-		font-size: 40px;
-		text-align: center;
-		margin: auto;
-	}
-
+	
 	.banner {
 		background-color: rgba(246, 198, 126, 0.57);
 		width: 300px;
@@ -271,6 +326,93 @@ body, html {
 		margin: auto;
 		text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
 	}
+
+	.courses {
+		padding-left: 0px;
+		flex-direction: column;
+		padding-top: 50px;
+	}
+	.course-banner {
+		display: flex;
+    	justify-content: center;
+		margin-bottom: 20px;
+	}
+	.course-banner p {
+		width: 180px;
+		height: 120px;
+		color: #E14E0E;
+		font-size: 50px;
+	}
+	.ege-pic img {
+		display: none;
+	}
+	.cards {
+		display: flex;
+		justify-content: space-around;
+	}
+	.card {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 200px;
+		height: 300px;
+		background: #FDFEC8;
+		box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+	}
+	.card img {
+		width: 200px;
+		height: auto;
+	}
+	.card-container {
+		padding: 10px;
+		background: #fff;
+	}
+	.card-container p {
+		font-size: 15px;
+		line-height: 20px;
+		align-items: center;
+		text-align: center;
+	}
+	.card-info {
+		display: flex;
+		justify-content: space-between;
+		background: #fff;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.money img {
+		padding-left: 5px;
+		padding-right: 5px;
+		height: 15px;
+		width: auto;
+	}
+	.money p {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		align-items: center;
+		text-align: right;
+		color: #E14E0E;
+	}
+
+	.info img {
+		padding-right: 5px;
+		height: 15px;
+		width: auto;
+	}
+	.info p {
+		padding-right: 5px;
+		font-size: 14px;
+		line-height: 20px;
+		align-items: center;
+		text-align: right;
+	}
+	.oge-pic img {
+		display: none;
+	}
+
+
+
+
 
 	/*.grid-ege {
 		display: grid;
@@ -303,20 +445,28 @@ body, html {
 
 @media screen and (max-width: 450px) {
 	.main-screen {
-		background: linear-gradient(180deg, #fff 1%, rgba(0,0,0,0) 99%),  url(img/background.svg);
+		background-image: url(img/background-m.svg);
+		height: 850px;
 		background-size: cover;
 		background-position: right top;
-		height: 500px;
 		display: flex;
 		flex-direction: column;
 		padding-left: 5%;
 	}
 
+	.slogan h1,
+	.slogan  p{
+		color: #fff;
+	}
 	
+	.icon-list {
+		margin-top: 50px;
+	}
 	.icon-list li {
-		font-weight: 600;
+		color: #fff;
 	}
 	.banner {
+		margin-top: 280px;
 		width: 250px;
 		height: 80px;
 	}
@@ -325,6 +475,15 @@ body, html {
 		font-size: 35px;
 		text-align: center;
 	}
+	.cards {
+		flex-direction: column;
+	}
+
+	.card {
+		margin: auto;
+		margin-top: 20px;
+	}
+
 
 	
 }
