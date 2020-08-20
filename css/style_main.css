@@ -1,12 +1,11 @@
 .main-screen {
 	background-color: #FFF;
-	background-image: url(img/background.svg);
+	background-image: url(img/background2.svg);
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: auto;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	padding-left: 5%;
 
 }
 .row {
@@ -181,6 +180,121 @@
 
 
 
+/**/
+.wrapper {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+.subjects {
+	display: flex;
+	flex-direction: column;
+}
+.subj-head {
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+.subj {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+}
+.subj-img {
+	width: 23%;
+}
+.subj-img img {
+	width: 100%;
+	height: auto;
+}
+
+.subj-container {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	height: auto;
+	align-items: center;
+}
+
+.subj-name {
+	font-size: 20px;
+	text-align: center;
+}
+
+.subj-text {
+	height: auto;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+.price {
+	display: flex;
+	flex-direction: column;
+}
+.price-head {
+	margin-top: 60px;
+	text-align: center;
+}
+.price-cards {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.price-card {
+	width: 250px;
+	height: 400px;
+	background-image: url(img/price-card.svg);
+}
+.price-card:nth-child(2) {
+	margin-top: 50px;
+}
+.price-card h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.aboutus {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+
+
+.aboutus-text h1 {
+	margin-bottom: 20px;
+}
+.aboutus-text p {
+	margin-top: 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.stats-line {
+	display: flex;
+}
+.square {
+	width: 200px;
+	height: 200px;
+	background: #D3E4F0;
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.square-stats {
+	font-size: 40px;
+	color:#F3953F;
+	margin-bottom: 15px;
+}
+.square-text {
+	font-size: 18px;
+}
+/**/
 
 
 
@@ -331,6 +445,36 @@
 	.oge-pic img {
 		display: none;
 	}
+
+
+	/**/
+	
+	.subj {
+		flex-direction: column;
+		align-items: center;
+	}
+	.subj:nth-child(2) {
+		margin-bottom: 20px;
+	}
+	.subj-img {
+		width: 200px;
+		height: auto;
+	}
+	.subj-container {
+		width: 95%;
+		text-align: center;
+	}
+
+	.aboutus {
+		flex-direction: column;
+		align-items: center;
+	}
+	.aboutus-text {
+		width: 95%;
+		justify-content: center;
+		text-align: center;
+	}
+	/**/
 }
 
 
@@ -390,6 +534,16 @@
 		font-size: 20px;
 	}
 
+	/**/
+	.stats-line {
+		flex-direction: column;
+	}
+	.square {
+		margin: 10px;
+	}
+
+
+	/**/
 
 	
 }
