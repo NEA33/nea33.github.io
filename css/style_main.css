@@ -79,108 +79,7 @@
 	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
 }
 
-.courses {
-	padding-left: 5%;
-	display: flex;
-	padding-top: 80px;
-	justify-content: space-between;
-}
 
-.course-banner {
-	background-color: rgba(246, 198, 126, 0.57);
-	width: 316px;
-	height: 165px;
-	display: flex;
-	-ms-align-items: center;
-	align-items: center;
-}
-.course-banner p {
-	color: #E14E0E;
-	font-size: 70px;
-	text-align: center;
-	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
-}
-.ege-pic img {
-	padding-top: 70px;
-	width: 310px;
-	height: auto;
-}
-.cards {
-	display: flex;
-	justify-content: space-around;
-}
-.card {
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 335px;
-	height: 500px;
-	background: #FDFEC8;
-	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
-}
-.card:hover {
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
-}
-.card-container {
-	padding: 19px;
-	background: #fff;
-}
-.card-container p {
-	font-size: 24px;
-	line-height: 28px;
-	align-items: center;
-	text-align: center;
-}
-.card-info {
-	display: flex;
-	justify-content: space-between;
-	background: #fff;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-.money img {
-	padding-left: 20px;
-	padding-right: 10px;
-	height: 21px;
-	width: auto;
-}
-.money p {
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 28px;
-	align-items: center;
-	text-align: right;
-	color: #E14E0E;
-}
-
-.info img {
-	padding-right: 5px;
-	height: 25px;
-	width: auto;
-}
-.info p {
-	padding-right: 5px;
-	font-size: 22px;
-	line-height: 26px;
-	align-items: center;
-	text-align: right;
-}
-.oge-pic img {
-	width: 220px;
-	height: auto;
-	padding-left: 90px;
-	padding-top: 30px;
-}
-
-.course-banner .ind {
-	font-size: 36px;
-}
-
-
-
-
-
-
-/**/
 .wrapper {
 	margin: 0 auto;
 	max-width: 1100px;
@@ -245,23 +144,77 @@
 	justify-content: space-around;
 }
 .price-card {
+	position:relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 250px;
 	height: 400px;
-	background-image: url(img/price-card.svg);
+	border: 5px solid #D3E4F0;
+}
+.price-card:hover {
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
 }
 .price-card:nth-child(2) {
+	border-color: #E14E0E;
 	margin-top: 50px;
+}
+.sale {
+	margin-top: -80px;
+	align-items: center;
+
 }
 .price-card h1 {
 	text-align: center;
+	color: #000;
+}
+.price-card:nth-child(2) h1{
+	margin-top: -90px;
 	color: #fff;
 }
+.price-list {
+	list-style-type: none;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.price-list li {
+	background: url("img/point_list.svg") no-repeat left;
+	padding-left: 20px;
+	margin-top: 5px;
+	font-size: 18px;
+	line-height: 30px;
+}
+.price-text {
+	position: absolute;
+	bottom: 45px;
+	font-size: 10px;
+}
+.price-money {
+	width: 250px;
+	height: 40px;
+	bottom: 0;
+	position: absolute;
+	background:  rgba(246, 198, 126, 0.57);
+}
+.price-money {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.price-money p {
+	font-size: 30px;
+	margin-right: 10px;
+	line-height: 40px;
+	color: #E14E0E;
+}
+
 
 .aboutus {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 100px;
+	padding-top: 100px;
 }
 
 
@@ -279,7 +232,7 @@
 .square {
 	width: 200px;
 	height: 200px;
-	background: #D3E4F0;
+	background: rgba(217, 232, 243, 0.69);
 	margin: 30px;
 	display: flex;
 	flex-direction: column;
@@ -294,10 +247,36 @@
 .square-text {
 	font-size: 18px;
 }
-/**/
+.contacts-head {
+	padding-top: 60px;
+	text-align: center;
+}
+.contacts-container {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+.contacts-text {
+	margin-left: 80px;
+	font-size: 20px;
+	line-height: 40px;
+}
+.contacts-text p:nth-child(2) {
+	margin-top: 50px;
+}
+.contacts-text ul {
+	list-style: decimal inside;
+	margin-top: 20px;
+}
+.
 
-
-
+@media screen and (max-width: 1100px) {
+	main {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
 
 @media screen and (max-width: 850px) {
 
@@ -359,96 +338,6 @@
 		text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
 	}
 
-	.courses {
-		padding-left: 0px;
-		flex-direction: column;
-		padding-top: 50px;
-	}
-	.course-info {
-		display: flex;
-		justify-content: center;
-	}
-
-	.course-banner {
-		display: flex;
-    	justify-content: center;
-    	width: 350px;
-		height: 100px;
-		margin-bottom: 20px;
-	}
-	.course-banner p {
-		font-size: 50px;
-	}
-	.ege-pic img {
-		display: none;
-	}
-	.cards {
-		display: flex;
-		justify-content: space-around;
-	}
-	.card {
-		margin-left: 0px;
-		margin-right: 0px;
-		width: 200px;
-		height: 300px;
-		background: #FDFEC8;
-		box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
-	}
-	.card img {
-		width: 200px;
-		height: auto;
-	}
-	.card-container {
-		padding: 10px;
-		background: #fff;
-	}
-	.card-container p {
-		font-size: 15px;
-		line-height: 20px;
-		align-items: center;
-		text-align: center;
-	}
-	.card-info {
-		display: flex;
-		justify-content: space-between;
-		background: #fff;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	.money img {
-		padding-left: 5px;
-		padding-right: 5px;
-		height: 15px;
-		width: auto;
-	}
-	.money p {
-		font-weight: 500;
-		font-size: 14px;
-		line-height: 20px;
-		align-items: center;
-		text-align: right;
-		color: #E14E0E;
-	}
-
-	.info img {
-		padding-right: 5px;
-		height: 15px;
-		width: auto;
-	}
-	.info p {
-		padding-right: 5px;
-		font-size: 14px;
-		line-height: 20px;
-		align-items: center;
-		text-align: right;
-	}
-	.oge-pic img {
-		display: none;
-	}
-
-
-	/**/
-	
 	.subj {
 		flex-direction: column;
 		align-items: center;
@@ -465,6 +354,17 @@
 		text-align: center;
 	}
 
+	.price-cards {
+		flex-direction: column;
+		align-items: center;
+	}
+	.price-card:nth-child(2) {
+		margin-top: 90px;
+	} 
+	.price-card:nth-child(3) {
+		margin-top: 30px;
+	}
+
 	.aboutus {
 		flex-direction: column;
 		align-items: center;
@@ -474,7 +374,16 @@
 		justify-content: center;
 		text-align: center;
 	}
-	/**/
+	.contacts-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.contacts-text {
+		margin-left: 0;
+		width: 95%;
+		text-align: center;
+	}
+	
 }
 
 
@@ -513,37 +422,11 @@
 		font-size: 35px;
 		text-align: center;
 	}
-	.course-banner {
-		width: 200px;
-		height: 60px;
-	}
-	.course-banner p {
-		color: #E14E0E;
-		font-size: 30px;
-	}
-	.cards {
-		flex-direction: column;
-	}
-
-	.card {
-		margin: auto;
-		margin-top: 20px;
-	}
-
-	.course-banner .ind {
-		font-size: 20px;
-	}
-
-	/**/
 	.stats-line {
 		flex-direction: column;
 	}
 	.square {
 		margin: 10px;
 	}
-
-
-	/**/
-
 	
 }
