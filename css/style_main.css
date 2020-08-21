@@ -14,8 +14,6 @@
 	justify-content: space-between;
 	padding-right: 80px;
 }
-
-
 .slogan h1 {
 	color: #000;
 	font-size: 60px;
@@ -38,7 +36,6 @@
 	font-size: 20px;
 	line-height: 30px;
 }
-
 .btn-contacts {
 	display: flex;
 	background-color: #F6C67E;
@@ -61,7 +58,6 @@
 	text-align: center;
 	margin: auto;
 }
-
 .banner {
 	background-color: rgba(246, 198, 126, 0.57);
 	width: 400px;
@@ -91,7 +87,6 @@
 }
 .subj-head {
 	margin-top: 50px;
-	font-size: 30px;
 	text-align: center;
 }
 .subj {
@@ -162,7 +157,6 @@
 .sale {
 	margin-top: -80px;
 	align-items: center;
-
 }
 .price-card h1 {
 	text-align: center;
@@ -201,7 +195,6 @@
 	flex-direction: row;
 	justify-content: center;
 }
-
 .price-money p {
 	font-size: 30px;
 	margin-right: 10px;
@@ -216,8 +209,6 @@
 	justify-content: space-around;
 	padding-top: 100px;
 }
-
-
 .aboutus-text h1 {
 	margin-bottom: 20px;
 }
@@ -245,7 +236,7 @@
 	margin-bottom: 15px;
 }
 .square-text {
-	font-size: 18px;
+	font-size: 20px;
 }
 .contacts-head {
 	padding-top: 60px;
@@ -260,7 +251,7 @@
 .contacts-text {
 	margin-left: 80px;
 	font-size: 20px;
-	line-height: 40px;
+	line-height: 30px;
 }
 .contacts-text p:nth-child(2) {
 	margin-top: 50px;
