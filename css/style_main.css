@@ -6,6 +6,7 @@
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
+	border: none;
 
 }
 .row {
@@ -170,11 +171,14 @@
 	margin-left: 5px;
 	margin-top: 10px;
 }
+.price-card:nth-child(2) ul {
+	margin-top: 50px;
+}
 .price-list li {
 	background: url("img/point_list.svg") no-repeat left;
 	padding-left: 20px;
 	margin-top: 5px;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 30px;
 }
 .price-text {
@@ -268,7 +272,7 @@
 	.price,
 	.aboutus,
 	.contacts {
-		margin: 0 2%;
+		padding: 0 2%;
 	}
 
 }
@@ -279,7 +283,7 @@
 	.price,
 	.aboutus,
 	.contacts {
-		margin: 0;
+		padding: 0;
 	}
 
 	.main-screen {
@@ -348,24 +352,22 @@
 	.widget-wa i {
 		padding-left: 5px;
 		color:#fff;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 	}
 	.widget-wa a {
 		text-decoration: none;
 		display: none;
 	}
 	.widget-wa:hover {
-		width: 200px;
+		width: 190px;
 	}
 	.widget-wa:hover a {
+		padding-right: 5px;
 		font-size: 18px;
 		padding-left: 10px;
 		display: block;
 		color: #fff;
-		align-items: center;
 		text-align: center;
+		line-height: 25px;
 	}
 
 	.subj {
