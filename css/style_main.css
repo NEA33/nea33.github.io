@@ -124,6 +124,97 @@
 	margin-top: 30px;
 }
 
+
+.timetable {
+	display: flex;
+	flex-direction: column;
+}
+.timetable h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+.timetable-banner {
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+.timetable-cards {
+	margin-left: 15%;
+}
+.tt-cards-line {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.tt-card {
+	width: 168px;
+	height: 168px;
+	background: rgba(217, 232, 243, 0.69);
+	margin-top: 30px;
+	margin-right: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.tt-container {
+	height: 84px;
+}
+.tt-container:nth-child(2) {
+	margin-top: -15px;
+}
+.tt-container:nth-child(2) .tt-time {
+	margin-top: 15px;
+}
+.tt-day {
+	margin-top: -15px;
+	margin-left: -15px;
+	width: 30px;
+	height: 30px;
+	background: #F3953F;
+}
+.tt-day p {
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.other_less {
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 50px;
+}
+.tt-time {
+	padding-top: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.tt-time p {
+	font-size: 25px;
+	line-height: 30px;
+	color: #F3953F;
+}
+.tt-time p:nth-child(2) {
+	margin-left: 10px;
+}
+.tt-name p {
+	padding-top: 5px;
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+	line-height: 20px;
+}
+.tt-hr {
+	height: 1px;
+	background: rgba(217, 232, 243, 1);
+	border: none;
+}
+.timetable-text {
+	margin-top: 50px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
 .price {
 	display: flex;
 	flex-direction: column;
@@ -257,7 +348,7 @@
 	line-height: 30px;
 }
 .contacts-text p:nth-child(2) {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .contacts-text ul {
 	list-style: decimal inside;
@@ -269,10 +360,14 @@
 
 	.main-screen,
 	.subjects,
+	.timetable,
 	.price,
 	.aboutus,
 	.contacts {
 		padding: 0 2%;
+	}
+	.timetable-cards {
+		margin-left: 7%;
 	}
 
 }
@@ -280,6 +375,7 @@
 @media screen and (max-width: 850px) {
 	.main-screen,
 	.subjects,
+	.timetable,
 	.price,
 	.aboutus,
 	.contacts {
@@ -386,6 +482,24 @@
 		text-align: center;
 	}
 
+	.timetable-cards {
+		margin-left: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.tt-card {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.tt-cards-line {
+		flex-direction: column;
+	}
+	.timetable-text {
+		text-align: center;
+		width: 95%;
+	}
+
 	.price-cards {
 		flex-direction: column;
 		align-items: center;
@@ -452,6 +566,10 @@
 	.banner p {
 		font-size: 35px;
 		text-align: center;
+	}
+	.timetable-cards {
+		flex-direction: column;
+		align-items: center;
 	}
 	.stats-line {
 		flex-direction: column;
