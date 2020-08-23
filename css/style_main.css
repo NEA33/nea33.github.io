@@ -73,7 +73,7 @@
 	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
 }
 
-.widget-wa {
+.widget{
 	display: none;
 }
 .wrapper {
@@ -134,7 +134,7 @@
 	margin-top: 50px;
 }
 .timetable-banner {
-	margin-top: -20px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 .timetable-cards {
@@ -434,37 +434,61 @@
 		margin: auto;
 		text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.51);
 	}
-	.widget-wa {
-		position: fixed;
+	.widget {
 		display: flex;
+		flex-direction: column;
+		position: fixed;
 		bottom: 3px;
 		right: 3px;
-		width: 50px;
-		height: 50px;
-		background: #25D366;
-		border-radius: 5px;
 		z-index: 100;
 	}
+	.widget-button {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.hide-widget {
+		width: 190px;
+		height: 20px;
+		border: none;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.show-widget {
+		display: none;
+		width: 70px;
+		height: 20px;
+		border: none;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		font-size: 15px;
+		text-align: center;
+	}
+	
+	.widget-wa {
+		display: flex;
+		width: 200px;
+		height: 50px;
+		background: #25D366;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
 	.widget-wa i {
-		padding-left: 5px;
+		padding-left: 15px;
 		color:#fff;
 	}
 	.widget-wa a {
 		text-decoration: none;
-		display: none;
-	}
-	.widget-wa:hover {
-		width: 190px;
-	}
-	.widget-wa:hover a {
-		padding-right: 5px;
+		padding-right: 10px;
 		font-size: 18px;
-		padding-left: 10px;
-		display: block;
+		padding-left: 5px;
 		color: #fff;
 		text-align: center;
 		line-height: 25px;
 	}
+	
 
 	.subj {
 		flex-direction: column;
