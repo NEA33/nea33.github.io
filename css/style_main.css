@@ -536,7 +536,11 @@
 		margin-top: 30px;
 	}
 
-	.aboutus {
+	.aboutus-head {
+		text-align: center;
+	}
+
+	.aboutus-info {
 		flex-direction: column;
 		align-items: center;
 	}
