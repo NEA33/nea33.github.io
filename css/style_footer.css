@@ -8,7 +8,7 @@ footer {
 	flex-direction: column;
 	justify-content: flex-start;
 }
-hr {
+.footer-hr {
 	height: 2px;
 	background: #E14E0E;
 	border: none;
