@@ -131,11 +131,12 @@
 }
 .timetable h1 {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 .timetable-banner {
 	margin-top: 30px;
 	margin-bottom: 30px;
+	text-align: center;
 }
 .timetable-cards {
 	margin-left: 15%;
@@ -297,13 +298,13 @@
 }
 
 
-.aboutus {
+.aboutus-info {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding-top: 100px;
 }
-.aboutus-text h1 {
+.aboutus-head {
+	padding-top: 60px;
 	margin-bottom: 20px;
 }
 .aboutus-text p {
