@@ -264,12 +264,17 @@
 	display: flex;
 	flex-direction: column;
 }
-.price-head {
+.price-head h1{
 	margin-top: 60px;
 	text-align: center;
 }
+.price-head h2 {
+	margin-top: 15px;
+	text-align: center;
+	color: #E14E0E;
+}
 .price-cards {
-	margin-top: 50px;
+	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -280,43 +285,35 @@
 	flex-direction: column;
 	align-items: center;
 	width: 250px;
-	height: 400px;
+	height: 380px;
 	border: 5px solid #D3E4F0;
 }
 .price-card:hover {
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
 }
-.price-card:nth-child(2) {
-	border-color: #E14E0E;
-	margin-top: 50px;
-}
-.sale {
-	margin-top: -80px;
-	align-items: center;
-}
 .price-card h1 {
 	text-align: center;
 	color: #000;
-}
-.price-card:nth-child(2) h1{
-	margin-top: -90px;
-	color: #fff;
 }
 .price-list {
 	list-style-type: none;
 	margin-left: 5px;
 	margin-top: 10px;
 }
-.price-card:nth-child(2) ul {
-	margin-top: 50px;
-}
+
 .price-list li {
-	background: url("img/point_list.svg") no-repeat left;
-	padding-left: 20px;
-	margin-top: 5px;
+	list-style: none;
+	text-indent: 0;
+	padding-top: 5px;
 	font-size: 17px;
 	line-height: 30px;
 }
+.price-list li::before {
+	content: '\25ba';
+	padding-right: 5px;
+	color: #E14E0E;
+}
+
 .price-text {
 	position: absolute;
 	bottom: 45px;
@@ -334,13 +331,23 @@
 	flex-direction: row;
 	justify-content: center;
 }
-.price-money p {
-	font-size: 30px;
+.old-price {
+	text-decoration: line-through;
+	font-size: 20px;
+	margin-right: 10px;
+	line-height: 40px;
+	color: #E14E0E;
+}
+.new-price {
+	font-size: 35px;
 	margin-right: 10px;
 	line-height: 40px;
 	color: #E14E0E;
 }
 
+.price-special-offer h2 {
+	margin-top: 20px;
+}
 
 .aboutus-info {
 	display: flex;
@@ -552,7 +559,9 @@
 	.price-card:nth-child(3) {
 		margin-top: 30px;
 	}
-
+	.price-special-offer {
+		text-align: center;
+	}
 	.aboutus-head {
 		text-align: center;
 	}
