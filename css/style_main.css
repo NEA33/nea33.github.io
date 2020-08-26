@@ -50,15 +50,14 @@
 	margin-top: 30px;
 	margin-bottom: 50px;
 	transition: background .2s linear;
+	text-decoration: none;
+	color: #000;
 }
 .btn-contacts:hover {
 	background: #F3953F;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
 }
-.btn-contacts a {
-	text-decoration: none;
-	color: #000;
-}
+
 .btn-contacts p {
 	font-size: 40px;
 	text-align: center;
@@ -357,33 +356,62 @@
 .aboutus-head {
 	padding-top: 60px;
 	margin-bottom: 20px;
+	text-align: center;
+}
+.aboutus-text {
+	width: 60%;
 }
 .aboutus-text p {
 	margin-top: 30px;
 	font-size: 20px;
 	line-height: 30px;
 }
-.stats-line {
-	display: flex;
+.aboutus-info {
+	margin-top: 30px;
 }
-.square {
-	width: 200px;
-	height: 200px;
-	background: rgba(217, 232, 243, 0.69);
-	margin: 30px;
+.card-teacher {
+	width: 250px;
+	height: 460px;
+	background: #F5F5F5;
+}
+.teacher-img img {
+	width: 250px;
+	height: auto;
+}
+
+.teacher-name {
+	text-align: center;
+}
+.teacher-name h3 {
+	padding: 10px 0;
+}
+.teacher-info {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+}
+.teacher-info-container {
+	margin: 10px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+.teacher-advantages p {
+	padding-top: 5px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.teacher-contacts {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
+	line-height: 20px;
 }
-.square-stats {
-	font-size: 40px;
-	color:#F3953F;
-	margin-bottom: 15px;
+.teacher-contacts a {
+	color: #E14E0E;
+	text-decoration: none;
 }
-.square-text {
-	font-size: 20px;
-}
+
+
 .contacts-head {
 	padding-top: 60px;
 	text-align: center;
@@ -402,10 +430,7 @@
 .contacts-text p:nth-child(2) {
 	margin-top: 30px;
 }
-.contacts-text ul {
-	list-style: decimal inside;
-	margin-top: 20px;
-}
+
 
 
 @media screen and (max-width: 1100px) {
@@ -512,13 +537,14 @@
 		background: #25D366;
 		border-bottom-right-radius: 5px;
 		border-bottom-left-radius: 5px;
+		text-decoration: none;
 	}
 	.widget-wa i {
 		padding-left: 15px;
 		color:#fff;
 	}
-	.widget-wa a {
-		text-decoration: none;
+	.widget-wa p {
+		
 		padding-right: 10px;
 		font-size: 18px;
 		padding-left: 5px;
@@ -562,10 +588,6 @@
 	.price-special-offer {
 		text-align: center;
 	}
-	.aboutus-head {
-		text-align: center;
-	}
-
 	.aboutus-info {
 		flex-direction: column;
 		align-items: center;
