@@ -89,4 +89,7 @@ footer {
 		margin-top: 10px;
 		align-items: center;
 	}
+	.open-modal {
+		display: none;
+	}
 }
