@@ -12,8 +12,6 @@ function hide_widget() {
 	document.getElementById("show-widget").setAttribute("style", "display: block");
 	document.getElementById("widget-wa").setAttribute("style", "width: 70px");
 	document.getElementById("widget-text").setAttribute("style", "display: none");
-
-
 }
 
 function show_widget() {
@@ -21,5 +19,13 @@ function show_widget() {
 	document.getElementById("hide-widget").setAttribute("style", "display: block");
 	document.getElementById("widget-wa").setAttribute("style", "width: 200px");
 	document.getElementById("widget-text").setAttribute("style", "display: flex");
+}
 
+function open_popup() {
+	document.getElementById("block-popup").setAttribute("style", "display: block");
+	document.getElementById("overlay").setAttribute("style", "display: block");
+}
+function close_popup() {
+	document.getElementById("block-popup").setAttribute("style", "display: none");
+	document.getElementById("overlay").setAttribute("style", "display: none");
 }
