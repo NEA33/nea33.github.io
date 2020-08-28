@@ -60,6 +60,13 @@ footer {
 .link-contacts a {
 	font-size: 18px;
 }
+.ya-site-quality-index img{
+	border-color: #fff;
+}
+.ya-site-quality-index {
+	display: flex;
+	justify-content: flex-end;
+}
 
 @media screen and (max-width: 1100px) {
 	footer {
@@ -75,6 +82,9 @@ footer {
 	.footer-main-links {
 		margin-top: 20px;
 		width: 95%;
+	}
+	.ya-site-quality-index {
+		justify-content: center;
 	}
 }
 
