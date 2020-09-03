@@ -86,7 +86,7 @@
 		<script src="script.js"></script>
 		<section class="main-screen wrapper" id="main">
 			<div class="main-phone">
-				<a href="tel:+79500033694"><i class="fa fa-mobile fa-1x" aria-hidden="true"></i> +7 (950) 003-36-94</a>
+				<a href="tel:+79500033694"><i class="fa fa-mobile fa-1x" aria-hidden="true"></i></i><i class="fa fa-whatsapp fa-1x" aria-hidden="true"></i> +7 (950) 003-36-94</a>
 			</div>
 
 			<div class="slogan">
@@ -98,17 +98,36 @@
 					<li>занятия 1-2 раза в неделю</li>
 					<li>комфортный учебный класс</li>
 					<li>мини-группы (до 6 человек) или <br>индивидуальные занятия</li>
-					<li>опыт преподавательской <br>деятельности — 7 лет</li>						
+					<li>опыт преподавательской <br>деятельности — 7 лет</li>
+					<li>помещение оборудовано <br>облучателем-рециркуляром закрытого типа</li>
 				</ul>
 			</div>
 			<div class="row">
-				<a href="#contacts" class="btn-contacts">
+				<a href="#banner-contacts" class="btn-contacts" onclick="open_banner_contacts()">
 					<p>Связаться</p>
 				</a>
 				<div class="banner">
 					<p>Подготовка <br>к ЕГЭ и ОГЭ</p>
 				</div>
 			</div>	
+			<div class="banner-contacts" id="banner-contacts">
+				<div class="bc-form">
+					<h3>Форма обратной связи</h3>
+					<script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script>
+					<iframe src="https://forms.yandex.ru/u/5f476585153cbc1e882a4922/?iframe=1" frameborder="0" name="ya-form-5f476585153cbc1e882a4922" width="500"></iframe>
+				</div>
+				<div class="bc-contacts">
+					<h3>Контакты</h3>
+					<a href="tel:+79500033694"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i> +7 (950) 003-36-94</a>
+					<a href="mailto:egeogefox@gmail.com"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i> egeogefox@gmail.com</a>
+					<a href="#contacts"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> Россия, г. Санкт-Петербург, <br>ул. Зайцева, д. 41, лит. А (БЦ "Румб")</a>
+					<div class="bc-social">
+						<a href="https://vk.com/ege_oge_fox" onclick="ym(66814930,'reachGoal','click-vk')"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+						<a href="https://instagram.com/egeogefox?igshid=10bijze3y1q8c" onclick="ym(66814930,'reachGoal','click-inst')"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<span onclick="close_banner_contacts()">&times;</span>
+			</div>
 			<div class="widget">
 				<div class="widget-button">
 					<button class="hide-widget" id="hide-widget" onclick="hide_widget()">Скрыть</button>
@@ -521,7 +540,7 @@
 					</div>
 					<div class="footer-link link-contacts">
 						<p>Связаться с нами</p>
-						<a href="tel:+79500033694"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i> +7 (950) 003-36-94</a>
+						<a href="tel:+79500033694"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></i><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i> +7 (950) 003-36-94</a>
 						<a href="mailto:egeogefox@gmail.com"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i> egeogefox@gmail.com</a>
 						<a href="#contacts"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> Россия, г. Санкт-Петербург, <br>ул. Зайцева, д. 41, лит. А (БЦ "Румб")</a>
 					</div>
