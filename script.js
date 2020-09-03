@@ -29,3 +29,12 @@ function close_popup() {
 	document.getElementById("block-popup").setAttribute("style", "display: none");
 	document.getElementById("overlay").setAttribute("style", "display: none");
 }
+
+function open_banner_contacts() {
+	document.getElementById("banner-contacts").setAttribute("style", "display: flex");
+	document.getElementById("overlay").setAttribute("style", "display: block");
+}
+function close_banner_contacts() {
+	document.getElementById("banner-contacts").setAttribute("style", "display: none");
+	document.getElementById("overlay").setAttribute("style", "display: none");
+}
