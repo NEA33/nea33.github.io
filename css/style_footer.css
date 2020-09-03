@@ -54,6 +54,9 @@ footer {
 	font-size: 18px;
 	margin-bottom: 20px;
 }
+.footer-link i {
+	margin-right: 10px;
+}
 .footer-link a:hover {
 	text-decoration: underline;
 }
