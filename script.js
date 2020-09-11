@@ -38,3 +38,12 @@ function close_banner_contacts() {
 	document.getElementById("banner-contacts").setAttribute("style", "display: none");
 	document.getElementById("overlay").setAttribute("style", "display: none");
 }
+
+function open_form_record() {
+	document.getElementById("form-record").setAttribute("style", "display: block");
+	document.getElementById("overlay").setAttribute("style", "display: block");
+}
+function close_form_record() {
+	document.getElementById("form-record").setAttribute("style", "display: none");
+	document.getElementById("overlay").setAttribute("style", "display: none");
+}
