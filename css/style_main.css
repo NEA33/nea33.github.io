@@ -353,12 +353,12 @@
 	justify-content: space-around;
 }
 .price-card {
-	position:relative;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 250px;
-	height: 380px;
+	height: 430px;
 	border: 5px solid #D3E4F0;
 }
 .price-card:hover {
@@ -389,17 +389,15 @@
 
 .price-text {
 	position: absolute;
-	bottom: 45px;
+	bottom: 85px;
 	font-size: 10px;
 }
 .price-money {
 	width: 250px;
 	height: 40px;
-	bottom: 0;
+	bottom: 40px;
 	position: absolute;
 	background:  rgba(246, 198, 126, 0.57);
-}
-.price-money {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -417,6 +415,53 @@
 	line-height: 40px;
 	color: #E14E0E;
 }
+.button-record {
+	text-decoration: none;
+	color: #000;
+	position: absolute;
+	text-align: center;
+	height: 40px;
+	width: 250px;
+	bottom: 0;
+	background: #F6C67E;
+}
+.button-record:hover {
+	background: #F3953F;
+}
+.button-record p {
+	font-size: 25px;
+	line-height: 35px;
+}
+
+
+.form-record {
+  position: fixed;
+  background: #fff;
+  width: 500px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 12px 20px -10px;
+  text-align: center;
+  display: none;
+  z-index: 1200;
+  overflow: scroll;
+}
+.form-record h3 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.form-record span {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
 
 .price-special-offer h2 {
 	margin-top: 20px;
@@ -704,6 +749,11 @@
 	.price-card:nth-child(3) {
 		margin-top: 30px;
 	}
+	.form-record {
+		width: 450px;
+		height: 450px;
+  		overflow: scroll;
+	}
 	.price-special-offer {
 		text-align: center;
 	}
@@ -724,6 +774,12 @@
 		margin-left: 0;
 		width: 95%;
 		text-align: center;
+	}
+
+	.block-popup {
+		width: 450px;
+		height: 450px;
+  		overflow: scroll;
 	}
 	
 }
@@ -805,5 +861,12 @@
 	}
 	.square {
 		margin: 10px;
+	}
+
+	.form-record {
+		width: 300px;
+	}
+	.block-popup {
+		width: 300px;
 	}
 }
