@@ -1,0 +1,172 @@
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+    <channel>
+        <title>Курсы ЕГЭ и ОГЭ | Мудрый Лис</title>
+        <link>https://egeogefox.ru</link>
+        <description>Подготовка к ЕГЭ и ОГЭ по физике и математике. Индивидуальные занятия и мини-группы. Офис находится около ст. метро Кировский завод.</description>
+        <turbo:analytics type="Yandex" id="66814930"></turbo:analytics>
+        <item turbo="true">
+            <link>https://egeogefox.ru</link>
+            <turbo:content>
+                <![CDATA[
+                    <header>
+                        <h1>Курсы ЕГЭ и ОГЭ | Мудрый Лис</h1>
+                        <h2>Математика, физика</h2>
+                        <menu>
+                            <a href="https://egeogefox.ru/#timetable">Расписание</a>
+                            <a href="https://egeogefox.ru/#price">Цены</a>
+                            <a href="https://egeogefox.ru/#aboutus">О нас</a>
+                            <a href="https://egeogefox.ru/#contacts">Контакты</a>
+                        </menu>
+                    </header>
+                    <p>Образовательный центр "Мудрый Лис" готовит учащихся 9-х и 11-х классов к выпускным экзаменам по физике и математике в формате ЕГЭ и ОГЭ.</p>
+                    <figure>
+                        <img src="img/teacher.jpg">
+                    </figure>
+                    <p>Преподаватель курсов - Варшавский Михаил Сергеевич - выпускник аспирантуры физического факультета Санкт-Петербургского государственного университета (СПбГУ). Опыт преподавательской деятельности - 8 лет.</p>
+
+                    <div data-block="cards">
+                        <div data-block="card">
+                            <header>
+                                <img src="img/favicone.png" alt="Мудрый лис">
+                                <h2>ЕГЭ математика (профильный уровень)</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <ul>
+                                <li>Мини-группы (до 6 человек)</li>
+                                <li>Продолжительность - 90 минут</li>
+                                <li>2 раза в неделю (пн/чт или вт/пт)</li>
+                                <li>Домашние задания</li>
+                                <li>Мониторинг знаний</li>
+                                <li>Комфортный учебный класс</li>
+                                <li>Цена за 1 занятие - 1000 р</li>
+                            </ul>
+                            <!-- Конец содержимого карточки. -->
+                            <footer>
+                                <a href="https://egeogefox.ru/#timetable">Подробнее</a>
+                            </footer>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <img src="img/favicone.png" alt="Мудрый лис">
+                                <h2>ЕГЭ физика</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <ul>
+                                <li>Мини-группы (до 6 человек)</li>
+                                <li>Продолжительность - 90 минут</li>
+                                <li>2 раза в неделю (вт/пт)</li>
+                                <li>Домашние задания</li>
+                                <li>Мониторинг знаний</li>
+                                <li>Комфортный учебный класс</li>
+                                <li>Цена за 1 занятие - 1000 р</li>
+                            </ul>
+                            <!-- Конец содержимого карточки. -->
+                            <footer>
+                                <a href="https://egeogefox.ru/#timetable">Подробнее</a>
+                            </footer>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <img src="img/favicone.png" alt="Мудрый лис">
+                                <h2>ЕГЭ математика (базовый уровень)</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <ul>
+                                <li>Мини-группы (до 6 человек)</li>
+                                <li>Продолжительность - 60 минут</li>
+                                <li>1 раз в неделю (ср)</li>
+                                <li>Домашние задания</li>
+                                <li>Мониторинг знаний</li>
+                                <li>Комфортный учебный класс</li>
+                                <li>Цена за 1 занятие - 800 р</li>
+                            </ul>
+                            <!-- Конец содержимого карточки. -->
+                            <footer>
+                                <a href="https://egeogefox.ru/#timetable">Подробнее</a>
+                            </footer>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <img src="img/favicone.png" alt="Мудрый лис">
+                                <h2>ОГЭ математика</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <ul>
+                                <li>Мини-группы (до 6 человек)</li>
+                                <li>Продолжительность - 60 минут</li>
+                                <li>1 раз в неделю (чт)</li>
+                                <li>Домашние задания</li>
+                                <li>Мониторинг знаний</li>
+                                <li>Комфортный учебный класс</li>
+                                <li>Цена за 1 занятие - 800 р</li>
+                            </ul>
+                            <!-- Конец содержимого карточки. -->
+                            <footer>
+                                <a href="https://egeogefox.ru/#timetable">Подробнее</a>
+                            </footer>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <img src="img/favicone.png" alt="Мудрый лис">
+                                <h2>ОГЭ физика</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <ul>
+                                <li>Мини-группы (до 6 человек)</li>
+                                <li>Продолжительность - 60 минут</li>
+                                <li>1 раз в неделю</li>
+                                <li>Домашние задания</li>
+                                <li>Мониторинг знаний</li>
+                                <li>Комфортный учебный класс</li>
+                                <li>Цена за 1 занятие - 800 р</li>
+                            </ul>
+                            <!-- Конец содержимого карточки. -->
+                            <footer>
+                                <a href="https://egeogefox.ru/#timetable">Подробнее</a>
+                            </footer>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <img src="img/favicone.png" alt="Мудрый лис">
+                                <h2>Индивидуально</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <ul>
+                                <li>Занятия в дневное и вечернее время</li>
+                                <li>Продолжительность занятия от 60 минут</li>
+                                <li>Домашние задания</li>
+                                <li>Мониторинг знаний</li>
+                                <li>Комфортный учебный класс</li>
+                                <li>Цена за 60 минут - 1200 р</li>
+                            </ul>
+                            <!-- Конец содержимого карточки. -->
+                            <footer>
+                                <a href="https://egeogefox.ru/#timetable">Подробнее</a>
+                            </footer>
+                        </div>
+                    </div>
+
+                    <h2>Как нас найти</h2>
+                    <ul>
+                        <li>8 минут пешком от м. "Кировский завод" (метро; автобус 2, 66, 72, 111, 546; троллейбус 20; маршрутка К2, К20, К41, К66, К195, К245, К306, К404)</li>
+                        <li>3 минуты от трамвайной остановки ул. Возрождения (трамвай 36, 41)</li>
+                        <li>4 минуты от остановки ул. Васи Алексеева и ул. Маршала Говорова (автобус 72, 73, 111; троллейбус 41, 48)</li>
+                    </ul>
+
+                    <button formaction="tel:+7(950)003-36-94" data-background-color="#F6C67E" data-color="#000" data-primary="true">Позвонить</button>
+                    <section id="contacts">
+                        <p>Наш адрес: <a href="https://yandex.ru/maps/org/kursy_yege_i_oge_spb_mudry_lis/75245360038/?ll=30.275363%2C59.880306&z=17">ст.м. Кировский завод, ул. Зайцева, д. 41 (БЦ "РУМБ")</a></p>
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8daef7e5c4d1c229999f7cef2e35bb99e5305cfba7b571d9cfb0f080a974217c&amp;source=constructor" width="450" height="300" frameborder="0"></iframe>
+                        <div data-block="widget-feedback" data-stick="false">
+                            <div data-block="chat" data-type="whatsapp" data-url="https://wa.me/79500033694?text=Здравствуйте!%20Меня%20заинтересовали%20групповые%20и%20индивидуальные%20занятия%20по%20физике%20и%20математике.%20Расскажите%20подробнее%20о%20курсах%20и%20условиях."></div>
+                            <div data-block="chat" data-type="vkontakte" data-url="https://vk.com/ege_oge_fox"></div>
+                            <div data-block="chat" data-type="mail" data-url="mailto:egeogefox@gmail.com"></div>
+                            <div data-block="chat" data-type="call" data-url="tel:+7(950)003-36-94"></div>
+                        </div>
+                    <section>
+
+                ]]>
+            </turbo:content>
+        </item>
+    </channel>
+</rss>
